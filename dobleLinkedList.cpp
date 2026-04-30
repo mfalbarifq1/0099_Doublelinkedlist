@@ -24,6 +24,11 @@ public:
         cout << "\nEnter the roll number of the student: ";
         cin >> nim;
 
+        Node *nodeBaru = new Node;
+
+        nodeBaru->noMhs = nim;
+
+
 
 
 
