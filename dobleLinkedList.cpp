@@ -10,3 +10,5 @@ public:
 };
 
 class DoublyLinkedList
+{
+    Node *START;}
