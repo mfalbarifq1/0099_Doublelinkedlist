@@ -36,6 +36,17 @@ public:
                 cout << "Duplicate roll numbers not allowed" << endl;
                 return;
             }
+            nodeBaru->next = START;
+
+            if (START != NULL)
+                START->prev = nodeBaru;
+
+            nodeBaru->prev = NULL;
+            START = nodeBaru;
+            return;
+        }
+
+            
 
 
 
